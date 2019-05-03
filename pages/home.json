@@ -1,0 +1,277 @@
+{ 
+  "global": {
+    "logo1": "img/logo.png",
+    "logo2": "img/logo-dark.png",
+    "navbar": [
+      {
+        "text": "Home",
+        "href": "#body"
+      },
+      {
+        "text": "About",
+        "href": "#about"
+      },
+      {
+        "text": "Experience",
+        "href": "#experience"
+      },
+      {
+        "text": "Work",
+        "href": "#work"
+      },
+      {
+        "text": "Contact",
+        "href": "#contact"
+      }
+    ]
+  },
+  "hero": {
+    "fname": "Alex",
+    "lname": "Teseira",
+    "work": "Web Designer",
+    "work2": "Front-end Developer",
+    "icons": [{"icon": "icon-social-facebook"}, {"icon": "icon-social-twitter"}, {"icon": "icon-social-dribbble"}, {"icon": "icon-social-behance"}, {"icon": "icon-social-linkedin"} ]
+  },
+  "section1": {
+    "title": "Intro",
+    "sub": "What I am all about.",
+    "desc": "I'm Alex Teseira, orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "desc2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "progress": [
+      {
+        "text": "PHP",
+        "num": "87%",
+        "width": "87"
+      },
+      {
+        "text": "HTML5",
+        "num": "96%",
+        "width": "96"
+      },
+      {
+        "text": "JavaSript",
+        "num": "52%",
+        "width": "52"
+      },
+      {
+        "text": "Photoshop",
+        "num": "77%",
+        "width": "77"
+      }
+    ]
+  },
+  "section2": {
+    "title": "Experience",
+    "sub": "Batman would be jealous.",
+    "explist": [
+      {
+        "class1": "service",
+        "class2": "service-icon icon-chemistry",
+        "class3": "margin-b-5",
+        "class4": "",
+        "dur": "",
+        "delay": "",
+        "text": "HTML5/CSS3",
+        "sub": "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor"
+      },
+      {
+        "class1": "service bg-color-base wow zoomIn",
+        "class2": "service-icon color-white icon-screen-tablet",
+        "class3": "color-white margin-b-5",
+        "class4": "color-white",
+        "dur": ".3",
+        "delay": ".1s",
+        "text": "Photoshop",
+        "sub": "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor"
+      },
+      {
+        "class1": "service",
+        "class2": "service-icon icon-chemistry",
+        "class3": "margin-b-5",
+        "class4": "",
+        "dur": "",
+        "delay": "",
+        "text": "Front-end",
+        "sub": "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor"
+      }
+    ]
+  },
+  "section3": {
+    "title": "Works",
+    "sub": "I build the real value.",
+    "work": {
+      "popup": [
+        {
+          "class": "masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4",
+          "img": "img/800x400/01.jpg",
+          "menu": "Hide",
+          "title": "Art Of Coding",
+          "sub": "Clean & Minimalistic Design",
+          "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "desc2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+          "tag": [{"text": "Design,"}, {"text": "Coding,"}, {"text": "Portfolio"}],
+          "exp": [
+            {
+              "pos": "Project Leader:",
+              "name": "John Doe"
+            },
+            {
+              "pos": "Designer:",
+              "name": "Alisa Keys"
+            },
+            {
+              "pos": "Developer:",
+              "name": "Mark Doe"
+            },
+            {
+              "pos": "Customer:",
+              "name": "Keenthemes"
+            }
+          ]
+        },
+        {
+          "class": "masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4",
+          "img": "img/397x400/01.jpg",
+          "menu": "Hide",
+          "title": "Art Of Coding",
+          "sub": "Clean & Minimalistic Design",
+          "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "desc2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+          "tag": [{"text": "Design,"}, {"text": "Coding,"}, {"text": "Portfolio"}],
+          "exp": [
+            {
+              "pos": "Project Leader:",
+              "name": "John Doe"
+            },
+            {
+              "pos": "Designer:",
+              "name": "Alisa Keys"
+            },
+            {
+              "pos": "Developer:",
+              "name": "Mark Doe"
+            },
+            {
+              "pos": "Customer:",
+              "name": "Keenthemes"
+            }
+          ]
+        },
+        {
+          "class": "masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4",
+          "img": "img/397x300/01.jpg",
+          "menu": "Hide",
+          "title": "Art Of Coding",
+          "sub": "Clean & Minimalistic Design",
+          "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "desc2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+          "tag": [{"text": "Design,"}, {"text": "Coding,"}, {"text": "Portfolio"}],
+          "exp": [
+            {
+              "pos": "Project Leader:",
+              "name": "John Doe"
+            },
+            {
+              "pos": "Designer:",
+              "name": "Alisa Keys"
+            },
+            {
+              "pos": "Developer:",
+              "name": "Mark Doe"
+            },
+            {
+              "pos": "Customer:",
+              "name": "Keenthemes"
+            }
+          ]
+        },
+        {
+          "class": "masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4",
+          "img": "img/397x300/02.jpg",
+          "menu": "Hide",
+          "title": "Art Of Coding",
+          "sub": "Clean & Minimalistic Design",
+          "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "desc2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+          "tag": [{"text": "Design,"}, {"text": "Coding,"}, {"text": "Portfolio"}],
+          "exp": [
+            {
+              "pos": "Project Leader:",
+              "name": "John Doe"
+            },
+            {
+              "pos": "Designer:",
+              "name": "Alisa Keys"
+            },
+            {
+              "pos": "Developer:",
+              "name": "Mark Doe"
+            },
+            {
+              "pos": "Customer:",
+              "name": "Keenthemes"
+            }
+          ]
+        },
+        {
+          "class": "masonry-grid-item col-xs-12 col-sm-6 col-md-4",
+          "img": "img/397x300/03.jpg",
+          "menu": "Hide",
+          "title": "Art Of Coding",
+          "sub": "Clean & Minimalistic Design",
+          "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "desc2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+          "tag": [{"text": "Design,"}, {"text": "Coding,"}, {"text": "Portfolio"}],
+          "exp": [
+            {
+              "pos": "Project Leader:",
+              "name": "John Doe"
+            },
+            {
+              "pos": "Designer:",
+              "name": "Alisa Keys"
+            },
+            {
+              "pos": "Developer:",
+              "name": "Mark Doe"
+            },
+            {
+              "pos": "Customer:",
+              "name": "Keenthemes"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "section4": {
+    "title": "Contacts",
+    "sub": "Hire me.",
+    "list": [
+      {
+        "class": "col-md-3 col-xs-6 md-margin-b-30",
+        "text": "Location",
+        "link": "Brookyln, New York",
+        "href": "#"
+      },
+      {
+        "class": "col-md-3 col-xs-6 md-margin-b-30",
+        "text": "Phone",
+        "link": "+77 234 548 00 00",
+        "href": "#"
+      },
+      {
+        "class": "col-md-3 col-xs-6",
+        "text": "Email",
+        "link": "alex.teseira@gmail.com",
+        "href": "mailto:#"
+      },
+      {
+        "class": "col-md-3 col-xs-6",
+        "text": "Web",
+        "link": "alex.teseira.com",
+        "href": "#"
+      }
+    ]
+  }
+}
