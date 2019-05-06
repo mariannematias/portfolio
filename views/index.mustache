@@ -12,28 +12,7 @@
 ================================== -->
 <html lang="en" class="no-js">
     <!-- BEGIN HEAD -->
-    <head>
-        <meta charset="utf-8"/>
-        <title>Metronic "Aircv" Frontend Freebie</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="" name="description"/>
-        <meta content="" name="author"/>
-
-        <!-- GLOBAL MANDATORY STYLES -->
-        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
-        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-
-        <!-- PAGE LEVEL PLUGIN STYLES -->
-        <link href="css/animate.css" rel="stylesheet">
-
-        <!-- THEME STYLES -->
-        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
-
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico"/>
-    </head>
+    {{>head}}
     <!-- END HEAD -->
 
     <!-- BODY -->
@@ -79,7 +58,7 @@
         <!--========== END HEADER ==========-->
 
         <!--========== SLIDER ==========-->
-        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="https://lh3.googleusercontent.com/mbcdtRxKR2JnmcB-cRZBV_xlbizFCXIfl2FQI7ztIIgoprnjyp6BKdlomwFt8PuY6j00c5g5twQyfs5K-7katBXK6g">
+        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="{{page.hero.img}}">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">

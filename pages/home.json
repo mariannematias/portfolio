@@ -30,7 +30,8 @@
     "lname": "Teseira",
     "work": "Web Designer",
     "work2": "Front-end Developer",
-    "icons": [{"icon": "icon-social-facebook"}, {"icon": "icon-social-twitter"}, {"icon": "icon-social-dribbble"}, {"icon": "icon-social-behance"}, {"icon": "icon-social-linkedin"} ]
+    "icons": [{"icon": "icon-social-facebook"}, {"icon": "icon-social-twitter"}, {"icon": "icon-social-dribbble"}, {"icon": "icon-social-behance"}, {"icon": "icon-social-linkedin"} ],
+    "img": "https://lh3.googleusercontent.com/mbcdtRxKR2JnmcB-cRZBV_xlbizFCXIfl2FQI7ztIIgoprnjyp6BKdlomwFt8PuY6j00c5g5twQyfs5K-7katBXK6g"
   },
   "section1": {
     "title": "Intro",
