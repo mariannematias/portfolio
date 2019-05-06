@@ -1,7 +1,7 @@
 { 
   "global": {
-    "logo1": "img/logo.png",
-    "logo2": "img/logo-dark.png",
+    "logo1": "https://lh3.googleusercontent.com/J4O0wFYX851YcenIi4tG7Xg1PujRyGB5uMnLW9TIIriV2cJaRFRqhfwZzSX0FR2Fg1QB2Js1fJcCowRj5U9q-JY8Idg",
+    "logo2": "https://lh3.googleusercontent.com/TcmlRG5fKJoMW0QxBld33dSRnnoqG5nXaLd4jwUjAau1m5bWpVcRQ2MHfEirQdN5B4-FuaHu29jTyqk5MnvrsK2imQ",
     "navbar": [
       {
         "text": "Home",
@@ -103,7 +103,7 @@
       "popup": [
         {
           "class": "masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4",
-          "img": "img/800x400/01.jpg",
+          "img": "https://lh3.googleusercontent.com/-fHKR2DNHJbKk25GKIdNT3YfDRBWbzD4o8Y970hL-gro9JjbVBvVbSZdqNWjTJs_L6XhhwzR4UjZiTIvTy1RccpDAA",
           "menu": "Hide",
           "title": "Art Of Coding",
           "sub": "Clean & Minimalistic Design",
@@ -131,7 +131,7 @@
         },
         {
           "class": "masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4",
-          "img": "img/397x400/01.jpg",
+          "img": "https://lh3.googleusercontent.com/2Zk2PXRvsb-iXG7WM2_lM0KqUidNsbSAytnEEwdneWWxjgy8ZrsjsTAw_TprMKWJxaHSOS9MqaNlS9bjwdVLPKpDPzk",
           "menu": "Hide",
           "title": "Art Of Coding",
           "sub": "Clean & Minimalistic Design",
@@ -159,7 +159,7 @@
         },
         {
           "class": "masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4",
-          "img": "img/397x300/01.jpg",
+          "img": "https://lh3.googleusercontent.com/FqGQ4cKnue9XVmjODzUE89gqmSWKd_F4hjAvbFQX0taQlxpFiANk5tRfmjjmRlYszvfGMy0bLGF1nDhN_dyjBKvm",
           "menu": "Hide",
           "title": "Art Of Coding",
           "sub": "Clean & Minimalistic Design",
@@ -187,7 +187,7 @@
         },
         {
           "class": "masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4",
-          "img": "img/397x300/02.jpg",
+          "img": "https://lh3.googleusercontent.com/QIQIjP_S3OKsfJgacz_qkG3l66vSPUvoo8PoRk3d90K3dzPR-kLnGCuc8Ym7SSYCezXyla3yBAQPLK_GBy_8htXm4g",
           "menu": "Hide",
           "title": "Art Of Coding",
           "sub": "Clean & Minimalistic Design",
@@ -215,7 +215,7 @@
         },
         {
           "class": "masonry-grid-item col-xs-12 col-sm-6 col-md-4",
-          "img": "img/397x300/03.jpg",
+          "img": "https://lh3.googleusercontent.com/znix5HAMuv_jYfeS1FwvH-Xwb0x23kab_9o4-JQfyh3NEwPm-PYGlWV9kEg1VU8Vwd9vhqbm0KJR_popH8-zOFrz",
           "menu": "Hide",
           "title": "Art Of Coding",
           "sub": "Clean & Minimalistic Design",
