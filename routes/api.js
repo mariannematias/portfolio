@@ -1,27 +1,13 @@
 // Full Documentation - https://www.turbo360.co/docs
 const turbo = require('turbo360')({site_id: process.env.TURBO_APP_ID})
 const vertex = require('vertex360')({site_id: process.env.TURBO_APP_ID})
-const router = vertex.router()
+const controllers = require('../controllers')
 
-/*  This is a sample API route. */
-
-router.get('/:resource', (req, res) => {
-	res.json({
-		confirmation: 'success',
-		resource: req.params.resource,
-		query: req.query // from the url query string
-	})
+const APIRouter = vertex.APIRouter
+const api = new APIRouter({
+	site_id: process.env.TURBO_APP_ID,
+	api_key: process.env.TURBO_API_KEY,
+	env: process.env.TURBO_ENV
 })
 
-router.get('/:resource/:id', (req, res) => {
-	res.json({
-		confirmation: 'success',
-		resource: req.params.resource,
-		id: req.params.id,
-		query: req.query // from the url query string
-	})
-})
-
-
-
-module.exports = router
+module.exports = api.router(controllers)
