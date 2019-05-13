@@ -29,21 +29,7 @@
   },
   "experience_section": {
     "title": "Experience",
-    "sub": "Batman would be jealous.",
-    "skill_list": [
-      {
-        "text": "HTML5/CSS3",
-        "description": "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor"
-      },
-      {
-        "text": "Photoshop",
-        "description": "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor"
-      },
-      {
-        "text": "Front-end",
-        "description": "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor"
-      }
-    ]
+    "sub": "Batman would be jealous."
   },
   "work_section": {
     "title": "Works",

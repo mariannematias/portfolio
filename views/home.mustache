@@ -149,20 +149,20 @@
                         </div>
                         <div class="col-sm-8 col-sm-offset-1">
                             <div class="row row-space-2 margin-b-4">
-								{{#page.experience_section.skill_list}}
+								{{#jobs}}
 									<div class="col-md-4 md-margin-b-4">
 										<div class="service skill-box" data-height="height">
 											<div class="service-element">
 												<i class="service-icon icon-chemistry"></i>
 											</div>
 											<div class="service-info">
-												<h3>{{text}}</h3>
+												<h3>{{position}}</h3>
 												<p class="margin-b-5">{{description}}</p>
 											</div>
 											<a href="#" class="content-wrapper-link"></a>    
 										</div>
 									</div>
-								{{/page.experience_section.skill_list}}
+								{{/jobs}}
                             </div>
                             <!--// end row -->
                         </div>
@@ -183,40 +183,60 @@
                             <p>{{page.work_section.sub}}</p>
                         </div>
                     </div>
+
+                    <!-- **** !!!! TO EDIT !!!! **** -->
+
                     <div class="col-sm-8 col-sm-offset-1">
-                        <!-- Masonry Grid -->
+						<!-- Masonry Grid -->
                         <div class="masonry-grid row row-space-2">
                             <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-
-							{{#projects}}
-								<div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-									<!-- Work -->
-									<div class="work work-popup-trigger">
-										<div class="work-overlay">
-											<img class="full-width img-responsive" src="{{{image}}}=s220" alt="Portfolio Image">
-										</div>
-										<div class="work-popup-overlay">
-											<div class="work-popup-content">
-												<a href="javascript:void(0);" class="work-popup-close">Hide</a>
-												<div class="margin-b-30">
-													<h3 class="margin-b-5">{{name}}</h3>
-												</div>
-												<div class="row">
-													<div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-														<div class="margin-t-10 sm-margin-t-0">
-															<p>{{description}}</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- End Work -->
-								</div>
-							{{/projects}}
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/800x400/01.jpg" alt="Portfolio Image">
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/397x400/02.jpg" alt="Portfolio Image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/397x300/03.jpg" alt="Portfolio Image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/397x300/04.jpg" alt="Portfolio Image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/397x300/05.jpg" alt="Portfolio Image">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <!-- End Masonry Grid -->
+                        <!-- End Masonry Grid --> 
                     </div>
+
+                    <!-- **** !!!! TO EDIT !!!! **** -->
+
                 </div>
                 <!--// end row -->
             </div>
@@ -263,19 +283,7 @@
         <!--========== END PAGE LAYOUT ==========-->
 
         <!--========== FOOTER ==========-->
-        <footer class="footer">
-            <div class="content container">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <img class="footer-logo" src="{{{global.img_logo_footer}}}" alt="Aircv Logo">
-                    </div>
-                    <div class="col-xs-6 text-right sm-text-left">
-                        <p class="margin-b-0"><a class="fweight-700" href="http://keenthemes.com/preview/aircv/">Aircv</a> Theme Powered by: <a class="fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
-        </footer>
+        {{>footer}}
         <!--========== END FOOTER ==========-->
 
         <!-- Back To Top -->
