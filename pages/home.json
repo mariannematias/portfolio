@@ -1,278 +1,109 @@
 { 
-  "global": {
-    "logo1": "https://lh3.googleusercontent.com/J4O0wFYX851YcenIi4tG7Xg1PujRyGB5uMnLW9TIIriV2cJaRFRqhfwZzSX0FR2Fg1QB2Js1fJcCowRj5U9q-JY8Idg",
-    "logo2": "https://lh3.googleusercontent.com/TcmlRG5fKJoMW0QxBld33dSRnnoqG5nXaLd4jwUjAau1m5bWpVcRQ2MHfEirQdN5B4-FuaHu29jTyqk5MnvrsK2imQ",
-    "navbar": [
-      {
-        "text": "Home",
-        "href": "#body"
-      },
-      {
-        "text": "About",
-        "href": "#about"
-      },
-      {
-        "text": "Experience",
-        "href": "#experience"
-      },
-      {
-        "text": "Work",
-        "href": "#work"
-      },
-      {
-        "text": "Contact",
-        "href": "#contact"
-      }
-    ]
-  },
-  "hero": {
-    "fname": "Alex",
-    "lname": "Teseira",
-    "work": "Web Designer",
-    "work2": "Front-end Developer",
-    "icons": [{"icon": "icon-social-facebook"}, {"icon": "icon-social-twitter"}, {"icon": "icon-social-dribbble"}, {"icon": "icon-social-behance"}, {"icon": "icon-social-linkedin"} ],
-    "img": "https://lh3.googleusercontent.com/mbcdtRxKR2JnmcB-cRZBV_xlbizFCXIfl2FQI7ztIIgoprnjyp6BKdlomwFt8PuY6j00c5g5twQyfs5K-7katBXK6g"
-  },
-  "section1": {
+  "intro_section": {
     "title": "Intro",
     "sub": "What I am all about.",
-    "desc": "I'm Alex Teseira, orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "desc2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "progress": [
+    "description": "I'm Alex Teseira, orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "description2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "progress_bar": [
       {
         "text": "PHP",
-        "num": "87%",
+        "percent_text": "87%",
         "width": "87"
       },
       {
         "text": "HTML5",
-        "num": "96%",
+        "percent_text": "96%",
         "width": "96"
       },
       {
         "text": "JavaSript",
-        "num": "52%",
+        "percent_text": "52%",
         "width": "52"
       },
       {
         "text": "Photoshop",
-        "num": "77%",
+        "percent_text": "77%",
         "width": "77"
       }
     ]
   },
-  "section2": {
+  "experience_section": {
     "title": "Experience",
     "sub": "Batman would be jealous.",
-    "explist": [
+    "skill_list": [
       {
-        "class1": "service",
-        "class2": "service-icon icon-chemistry",
-        "class3": "margin-b-5",
-        "class4": "",
-        "dur": "",
-        "delay": "",
         "text": "HTML5/CSS3",
-        "sub": "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor"
+        "description": "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor"
       },
       {
-        "class1": "service bg-color-base wow zoomIn",
-        "class2": "service-icon color-white icon-screen-tablet",
-        "class3": "color-white margin-b-5",
-        "class4": "color-white",
-        "dur": ".3",
-        "delay": ".1s",
         "text": "Photoshop",
-        "sub": "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor"
+        "description": "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor"
       },
       {
-        "class1": "service",
-        "class2": "service-icon icon-chemistry",
-        "class3": "margin-b-5",
-        "class4": "",
-        "dur": "",
-        "delay": "",
         "text": "Front-end",
-        "sub": "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor"
+        "description": "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor"
       }
     ]
   },
-  "section3": {
+  "work_section": {
     "title": "Works",
-    "sub": "I build the real value.",
-    "work": {
-      "popup": [
-        {
-          "class": "masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4",
-          "img": "https://lh3.googleusercontent.com/-fHKR2DNHJbKk25GKIdNT3YfDRBWbzD4o8Y970hL-gro9JjbVBvVbSZdqNWjTJs_L6XhhwzR4UjZiTIvTy1RccpDAA",
-          "menu": "Hide",
-          "title": "Art Of Coding",
-          "sub": "Clean & Minimalistic Design",
-          "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "desc2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-          "tag": [{"text": "Design,"}, {"text": "Coding,"}, {"text": "Portfolio"}],
-          "exp": [
-            {
-              "pos": "Project Leader:",
-              "name": "John Doe"
-            },
-            {
-              "pos": "Designer:",
-              "name": "Alisa Keys"
-            },
-            {
-              "pos": "Developer:",
-              "name": "Mark Doe"
-            },
-            {
-              "pos": "Customer:",
-              "name": "Keenthemes"
-            }
-          ]
-        },
-        {
-          "class": "masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4",
-          "img": "https://lh3.googleusercontent.com/2Zk2PXRvsb-iXG7WM2_lM0KqUidNsbSAytnEEwdneWWxjgy8ZrsjsTAw_TprMKWJxaHSOS9MqaNlS9bjwdVLPKpDPzk",
-          "menu": "Hide",
-          "title": "Art Of Coding",
-          "sub": "Clean & Minimalistic Design",
-          "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "desc2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-          "tag": [{"text": "Design,"}, {"text": "Coding,"}, {"text": "Portfolio"}],
-          "exp": [
-            {
-              "pos": "Project Leader:",
-              "name": "John Doe"
-            },
-            {
-              "pos": "Designer:",
-              "name": "Alisa Keys"
-            },
-            {
-              "pos": "Developer:",
-              "name": "Mark Doe"
-            },
-            {
-              "pos": "Customer:",
-              "name": "Keenthemes"
-            }
-          ]
-        },
-        {
-          "class": "masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4",
-          "img": "https://lh3.googleusercontent.com/FqGQ4cKnue9XVmjODzUE89gqmSWKd_F4hjAvbFQX0taQlxpFiANk5tRfmjjmRlYszvfGMy0bLGF1nDhN_dyjBKvm",
-          "menu": "Hide",
-          "title": "Art Of Coding",
-          "sub": "Clean & Minimalistic Design",
-          "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "desc2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-          "tag": [{"text": "Design,"}, {"text": "Coding,"}, {"text": "Portfolio"}],
-          "exp": [
-            {
-              "pos": "Project Leader:",
-              "name": "John Doe"
-            },
-            {
-              "pos": "Designer:",
-              "name": "Alisa Keys"
-            },
-            {
-              "pos": "Developer:",
-              "name": "Mark Doe"
-            },
-            {
-              "pos": "Customer:",
-              "name": "Keenthemes"
-            }
-          ]
-        },
-        {
-          "class": "masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4",
-          "img": "https://lh3.googleusercontent.com/QIQIjP_S3OKsfJgacz_qkG3l66vSPUvoo8PoRk3d90K3dzPR-kLnGCuc8Ym7SSYCezXyla3yBAQPLK_GBy_8htXm4g",
-          "menu": "Hide",
-          "title": "Art Of Coding",
-          "sub": "Clean & Minimalistic Design",
-          "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "desc2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-          "tag": [{"text": "Design,"}, {"text": "Coding,"}, {"text": "Portfolio"}],
-          "exp": [
-            {
-              "pos": "Project Leader:",
-              "name": "John Doe"
-            },
-            {
-              "pos": "Designer:",
-              "name": "Alisa Keys"
-            },
-            {
-              "pos": "Developer:",
-              "name": "Mark Doe"
-            },
-            {
-              "pos": "Customer:",
-              "name": "Keenthemes"
-            }
-          ]
-        },
-        {
-          "class": "masonry-grid-item col-xs-12 col-sm-6 col-md-4",
-          "img": "https://lh3.googleusercontent.com/znix5HAMuv_jYfeS1FwvH-Xwb0x23kab_9o4-JQfyh3NEwPm-PYGlWV9kEg1VU8Vwd9vhqbm0KJR_popH8-zOFrz",
-          "menu": "Hide",
-          "title": "Art Of Coding",
-          "sub": "Clean & Minimalistic Design",
-          "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "desc2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-          "tag": [{"text": "Design,"}, {"text": "Coding,"}, {"text": "Portfolio"}],
-          "exp": [
-            {
-              "pos": "Project Leader:",
-              "name": "John Doe"
-            },
-            {
-              "pos": "Designer:",
-              "name": "Alisa Keys"
-            },
-            {
-              "pos": "Developer:",
-              "name": "Mark Doe"
-            },
-            {
-              "pos": "Customer:",
-              "name": "Keenthemes"
-            }
-          ]
-        }
-      ]
-    }
+    "sub": "I build the real value."
   },
-  "section4": {
+  "contact_section": {
     "title": "Contacts",
     "sub": "Hire me.",
-    "list": [
-      {
-        "class": "col-md-3 col-xs-6 md-margin-b-30",
-        "text": "Location",
-        "link": "Brookyln, New York",
-        "href": "#"
-      },
-      {
-        "class": "col-md-3 col-xs-6 md-margin-b-30",
-        "text": "Phone",
-        "link": "+77 234 548 00 00",
-        "href": "#"
-      },
-      {
-        "class": "col-md-3 col-xs-6",
-        "text": "Email",
-        "link": "alex.teseira@gmail.com",
-        "href": "mailto:#"
-      },
-      {
-        "class": "col-md-3 col-xs-6",
-        "text": "Web",
-        "link": "alex.teseira.com",
-        "href": "#"
-      }
-    ]
+    "address": {
+        "label": "Location",
+        "text": "Brookyln, New York"
+    },
+    "phone": {
+      "label": "Phone",
+      "text": "+77 234 548 00 00"
+    },
+    "email": {
+      "label": "Email",
+      "text": "alex.teseira@gmail.com"
+    },
+    "website": {
+      "label": "Web",
+      "text": "alex.teseira.com"
+    }
+  },
+  "social": {
+    "facebook": {
+      "name": "facebook",
+      "url": "https://www.facebook.com",
+      "show_or_hide": true
+    },
+    "twitter": {
+      "name": "twitter",
+      "url": "https://www.twitter.com",
+      "show_or_hide": true
+    },
+    "dribbble": {
+      "name": "dribbble",
+      "url": "https://www.dribbble.com",
+      "show_or_hide": true
+    },
+    "pinterest": {
+      "name": "pinterest",
+      "url": "https://www.pinterest.com",
+      "show_or_hide": true
+    },
+    "linkedin": {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com",
+      "show_or_hide": true
+    },
+    "youtube": {
+      "name": "youtube",
+      "url": "https://www.youtube.com",
+      "show_or_hide": false
+    },
+    "instagram": {
+      "name": "instagram",
+      "url": "https://www.instagram.com",
+      "show_or_hide": false
+    }
   }
 }

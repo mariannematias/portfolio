@@ -386,6 +386,14 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
+.skill-box:hover {
+  background: #17bed2;
+}
+
+.skill-box:hover .service-info h3,
+.skill-box:hover .service-info p{
+  color: #fff;
+}
 /*------------------------------------------------------------------
   	[Work]
 ------------------------------------------------------------------*/

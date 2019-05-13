@@ -1,3 +1,32 @@
 {
-  "key": "value"
+  "profile": {
+    "firstName": "Alex",
+    "lastName": "Teseira",
+    "position": "Web Designer & Front-end Developer"
+  },
+  "navigation_menu": [
+    {
+      "text": "Home",
+      "url": "#body"
+    },
+    {
+      "text": "About",
+      "url": "#about"
+    },
+    {
+      "text": "Experience",
+      "url": "#experience"
+    },
+    {
+      "text": "Work",
+      "url": "#work"
+    },
+    {
+      "text": "Contact",
+      "url": "#contact"
+    }
+  ],
+  "img_logo_header": "https://lh3.googleusercontent.com/J4O0wFYX851YcenIi4tG7Xg1PujRyGB5uMnLW9TIIriV2cJaRFRqhfwZzSX0FR2Fg1QB2Js1fJcCowRj5U9q-JY8Idg",
+  "img_logo_footer": "https://lh3.googleusercontent.com/TcmlRG5fKJoMW0QxBld33dSRnnoqG5nXaLd4jwUjAau1m5bWpVcRQ2MHfEirQdN5B4-FuaHu29jTyqk5MnvrsK2imQ",
+  "img_hero_bg": "https://lh3.googleusercontent.com/mbcdtRxKR2JnmcB-cRZBV_xlbizFCXIfl2FQI7ztIIgoprnjyp6BKdlomwFt8PuY6j00c5g5twQyfs5K-7katBXK6g=s2048"
 }
