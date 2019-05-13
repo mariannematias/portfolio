@@ -1,5 +1,5 @@
 {
-  "name": "turbo-portfolio",
+  "name": "resume-template-base",
   "version": "0.0.0",
   "server": false,
   "private": true,
@@ -7,6 +7,7 @@
     "start": "node ./bin/www",
     "test": "",
     "build": "npm run clean && gulp prod",
+    "reset": "rimraf ./tmp/*",
     "clean": "rimraf ./public/dist"
   },
   "dependencies": {
