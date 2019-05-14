@@ -25,6 +25,12 @@ router.get('/', (req, res) => {
 	})
 	.then(posts => {
 		data['posts'] = posts
+		const projectsCtr = new controllers.project()
+		return projectsCtr.get()
+		//return turbo.currentApp(process.env.TURBO_ENV)
+	})
+	.then(projects => {
+		data['projects'] = projects
 		return turbo.currentApp(process.env.TURBO_ENV)
 	})
 	.then(site => {

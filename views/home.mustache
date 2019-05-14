@@ -44,9 +44,11 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right">
-								{{#global.navigation_menu}}
-									<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="{{url}}">{{text}}</a></li>
-								{{/global.navigation_menu}}
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">{{global.navigation_menu.home}}</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">{{global.navigation_menu.about}}</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">{{global.navigation_menu.experience}}</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">{{global.navigation_menu.work}}</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">{{global.navigation_menu.contact}}</a></li>
                             </ul>
                         </div>
                     </div>
@@ -67,33 +69,33 @@
                             <p class="promo-block-text">{{global.profile.position}}</p>
                         </div>
                         <ul class="list-inline">
-							{{#page.social.facebook.show_or_hide}}
-                           		<li><a href="#" class="social-icons"><i class="icon-social-{{page.social.facebook.name}}"></i></a></li>
-							{{/page.social.facebook.show_or_hide}}
+							{{#page.hero_social.facebook.show_or_hide}}
+                           		<li><a href="#" class="social-icons"><i class="icon-social-{{page.hero_social.facebook.name}}"></i></a></li>
+							{{/page.hero_social.facebook.show_or_hide}}
 
-                            {{#page.social.twitter.show_or_hide}}
-                           		<li><a href="#" class="social-icons"><i class="icon-social-{{page.social.twitter.name}}"></i></a></li>
-							{{/page.social.twitter.show_or_hide}}
+                            {{#page.hero_social.twitter.show_or_hide}}
+                           		<li><a href="#" class="social-icons"><i class="icon-social-{{page.hero_social.twitter.name}}"></i></a></li>
+							{{/page.hero_social.twitter.show_or_hide}}
 
-                            {{#page.social.dribbble.show_or_hide}}
-                           		<li><a href="#" class="social-icons"><i class="icon-social-{{page.social.dribbble.name}}"></i></a></li>
-							{{/page.social.dribbble.show_or_hide}}
+                            {{#page.hero_social.dribbble.show_or_hide}}
+                           		<li><a href="#" class="social-icons"><i class="icon-social-{{page.hero_social.dribbble.name}}"></i></a></li>
+							{{/page.hero_social.dribbble.show_or_hide}}
 
-                            {{#page.social.pinterest.show_or_hide}}
-                           		<li><a href="#" class="social-icons"><i class="icon-social-{{page.social.pinterest.name}}"></i></a></li>
-							{{/page.social.pinterest.show_or_hide}}
+                            {{#page.hero_social.pinterest.show_or_hide}}
+                           		<li><a href="#" class="social-icons"><i class="icon-social-{{page.hero_social.pinterest.name}}"></i></a></li>
+							{{/page.hero_social.pinterest.show_or_hide}}
 
-                            {{#page.social.linkedin.show_or_hide}}
-                           		<li><a href="#" class="social-icons"><i class="icon-social-{{page.social.linkedin.name}}"></i></a></li>
-							{{/page.social.linkedin.show_or_hide}}
+                            {{#page.hero_social.linkedin.show_or_hide}}
+                           		<li><a href="#" class="social-icons"><i class="icon-social-{{page.hero_social.linkedin.name}}"></i></a></li>
+							{{/page.hero_social.linkedin.show_or_hide}}
                             
-                            {{#page.social.youtube.show_or_hide}}
-                           		<li><a href="#" class="social-icons"><i class="icon-social-{{page.social.youtube.name}}"></i></a></li>
-							{{/page.social.youtube.show_or_hide}}
+                            {{#page.hero_social.youtube.show_or_hide}}
+                           		<li><a href="#" class="social-icons"><i class="icon-social-{{page.hero_social.youtube.name}}"></i></a></li>
+							{{/page.hero_social.youtube.show_or_hide}}
 
-                            {{#page.social.instagram.show_or_hide}}
-                           		<li><a href="#" class="social-icons"><i class="icon-social-{{page.social.instagram.name}}"></i></a></li>
-							{{/page.social.instagram.show_or_hide}}
+                            {{#page.hero_social.instagram.show_or_hide}}
+                           		<li><a href="#" class="social-icons"><i class="icon-social-{{page.hero_social.instagram.name}}"></i></a></li>
+							{{/page.hero_social.instagram.show_or_hide}}
                         </ul>
                     </div>
                 </div>
@@ -120,14 +122,12 @@
                         </div>
 
                         <!-- Progress Box -->
-						{{#page.intro_section.progress_bar}}
-							<div class="progress-box">
-								<h5>{{text}} <span class="color-heading pull-right">{{percent_text}}</span></h5>
-								<div class="progress">
-									<div class="progress-bar bg-color-base" role="progressbar" data-width="{{width}}"></div>
-								</div>
-                        	</div>
-						{{/page.intro_section.progress_bar}}
+                        <div class="progress-box" id="skills">
+                            <h5>{{text}} <span class="color-heading pull-right">{{percent_text}}</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="{{width}}"></div>
+                            </div>
+                        </div>
                         <!-- End Progress Box -->
                     </div>
                 </div>
@@ -184,59 +184,50 @@
                         </div>
                     </div>
 
-                    <!-- **** !!!! TO EDIT !!!! **** -->
-
                     <div class="col-sm-8 col-sm-offset-1">
 						<!-- Masonry Grid -->
                         <div class="masonry-grid row row-space-2">
                             <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/800x400/01.jpg" alt="Portfolio Image">
+
+                            {{#projects}}
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
+                                    <!-- Project -->
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">
+                                            <img class="full-width img-responsive" src="{{{image}}}" alt="Project Image"/>
+                                        </div>
+                                        <div class="work-popup-overlay">
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">{{name}}</h3>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p>{{description}}</p>
+                                                            <ul class="list-inline work-popup-tag">
+                                                                <li class="work-popup-tag-item"><span class="work-popup-tag-link" href="#">Design,</span></li>
+                                                                <li class="work-popup-tag-item"><span class="work-popup-tag-link" href="#">Coding,</span></li>
+                                                                <li class="work-popup-tag-item"><span class="work-popup-tag-link" href="#">Portfolio</span></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Date:</strong> {{dateRange}}</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <!-- End Project -->
                                 </div>
-                                <!-- End Work -->
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/397x400/02.jpg" alt="Portfolio Image">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/397x300/03.jpg" alt="Portfolio Image">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/397x300/04.jpg" alt="Portfolio Image">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                                <!-- Work -->
-                                <div class="work work-popup-trigger">
-                                    <div class="work-overlay">
-                                        <img class="full-width img-responsive" src="img/397x300/05.jpg" alt="Portfolio Image">
-                                    </div>
-                                </div>
-                            </div>
+                            {{/projects}}
                         </div>
                         <!-- End Masonry Grid --> 
                     </div>
-
-                    <!-- **** !!!! TO EDIT !!!! **** -->
-
                 </div>
                 <!--// end row -->
             </div>
@@ -256,22 +247,33 @@
                         </div>
                         <div class="col-sm-8 col-sm-offset-1">
                             <div class="row">
-                                <div class="col-md-3 col-xs-6 md-margin-b-30">
-                                    <h5>{{page.contact_section.address.label}}</h5>
-                                    <span>{{page.contact_section.address.text}}</span>
-                                </div>
-                                <div class="col-md-3 col-xs-6 md-margin-b-30">
-                                    <h5>{{page.contact_section.phone.label}}</h5>
-                                    <span>{{page.contact_section.phone.text}}</span>
-                                </div>
-                                <div class="col-md-3 col-xs-6 md-margin-b-30">
-                                    <h5>{{page.contact_section.email.label}}</h5>
-                                    <span>{{page.contact_section.email.text}}</span>
-                                </div>
-                                <div class="col-md-3 col-xs-6 md-margin-b-30">
-                                    <h5>{{page.contact_section.website.label}}</h5>
-                                    <span>{{page.contact_section.website.text}}</span>
-                                </div>
+                                {{#page.contact_section.address.show_or_hide}}
+                                    <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                        <h5>{{page.contact_section.address.label}}</h5>
+                                        <span>{{page.contact_section.address.text}}</span>
+                                    </div>
+                                {{/page.contact_section.address.show_or_hide}}
+
+                                {{#page.contact_section.phone.show_or_hide}}
+                                    <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                        <h5>{{page.contact_section.phone.label}}</h5>
+                                        <span>{{page.contact_section.phone.text}}</span>
+                                    </div>
+                                {{/page.contact_section.phone.show_or_hide}}
+
+                                {{#page.contact_section.email.show_or_hide}}
+                                    <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                        <h5>{{page.contact_section.email.label}}</h5>
+                                        <span>{{page.contact_section.email.text}}</span>
+                                    </div>
+                                {{/page.contact_section.email.show_or_hide}}
+
+                                {{#page.contact_section.website.show_or_hide}}
+                                    <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                        <h5>{{page.contact_section.website.label}}</h5>
+                                        <span>{{page.contact_section.website.text}}</span>
+                                    </div>
+                                {{/page.contact_section.website.show_or_hide}}
                             </div>
                         </div>
                     </div>
@@ -288,6 +290,10 @@
 
         <!-- Back To Top -->
         <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <script type="text/javascript">
+            window.__PRELOADED__={{{preloaded}}}
+        </script>
 
         <!-- Vertex library for enabling site updates from https://www.vertex360.co -->
         <script type="text/javascript" src="https://cdn.turbo360-dev.com/dist/vertex.min.js"></script>
@@ -313,6 +319,25 @@
         <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
         <script src="js/components/masonry.min.js" type="text/javascript"></script>
         <script src="js/components/wow.min.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+            (function(){
+            
+                var data = window.__PRELOADED__;
+                var pageData = data.page;
+                var skills = pageData.intro_section.skills.list;
+                var skillsArr = skills.split(",");
+                var skillHTML = "";
+                skillsArr.forEach(function(skill, i) {
+                    var skillParts = skill.split(":");
+                    var name = skillParts[0];
+                    var score = skillParts[1];
+                    skillHTML += "<h5>" + name + '<span class="color-heading pull-right">' + score + "%</span></h5>";
+                    skillHTML += '<div class="progress"> <div class="progress-bar bg-color-base" role="progressbar" data-width="' + score + '"></div></div>';
+                })
+                $("#skills").html(skillHTML);
+            })()
+    </script>
 
     </body>
     <!-- END BODY -->
