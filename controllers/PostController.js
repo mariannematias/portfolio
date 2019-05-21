@@ -75,12 +75,11 @@ class PostController extends Controller {
 		return new Promise((resolve, reject) => {
 			let payload = null
 
-			// if (params.text != null)
-			// 	params['preview'] = vertex.utils.scrapePreview(params.text, 200)
-
 			vertex.utils.scrapePreview(params.text, 200)
-			.then(data => {
-				params['preview'] = data.preview || ''
+			.then(data => { // this can be null
+				if (data != null)
+					params['preview'] = data.preview || ''
+
 				return Post.findByIdAndUpdate(id, params, {new:true})
 			})
 			.then(post => {
