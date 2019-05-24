@@ -13,7 +13,9 @@ const path = require('path')
 gulp.task('css', function(){
     return gulp.src(
             [
-                './public/css/style.css'
+                './public/vendor/bootstrap/css/bootstrap.min.css',
+                './public/css/animate.css',
+                './public/css/layout.min.css'
             ]
         )
         .pipe(minifyCSS())
